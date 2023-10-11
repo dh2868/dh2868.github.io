@@ -1,0 +1,295 @@
+/* Basic Reset */
+/* Basic Reset */
+/* Basic Reset */
+body, h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    background-color: #eeeeee;
+}
+
+body, html {
+    height: 100%; /* ensures full height */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.body-wrap {
+    display: flex;        /* enable flexbox */
+    flex-direction: column;  /* stack child elements vertically */
+    min-height: 100%;      /* full height of the viewport */
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .second-column {
+        width: 600px;
+    }
+}
+
+h1, h2 {
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 600;  /* Using semi-bold weight for headers */
+}
+
+p {
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 400;  /* Using normal weight for paragraphs */
+}
+
+.container {
+    width: 90%;   /* Takes up 90% of the parent element's width */
+    max-width: 1200px;  /* Won't exceed 1200px even on very large screens */
+}
+
+img {
+    max-width: 100%;
+    height: auto;  /* Preserve the image's aspect ratio */
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+}
+
+p {
+    max-width: 800px;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+header, footer {
+    width: 1100px;  /*Adjust this value to your design preference */
+    margin: 0;
+    overflow: hidden; /* Choose based on your preference */
+    justify-content: left;     /* Horizontally centers the child elements */
+    align-items: left;        /* Vertically centers the child elements */
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #eeeeee;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;   /* Vertically centers the items */
+    gap: 10px;             /* Space between items */
+    font-style: bold;
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+}
+
+header nav a {
+    font-size: 15px;
+    font-weight: normal;
+    color: black;         /* Change the link color to black */
+    text-decoration: none; /* Remove underline */
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+    
+}
+
+header nav a:hover {
+    color: gray;  /* Change the link color to gray on hover */
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+}
+
+.separator {
+    font-size: 15px;   /* example size */
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 100;
+    color: black;      /* example color */
+}
+
+
+.small-rect {
+    display: inline-block; /* Inline with the text */
+    width: 20px;           /* Adjust as needed */
+    height: 20px;
+    border-radius: 0;    /* Makes it circular */
+    margin-right: 0px;    /* Space between the circle and the name */
+    vertical-align: middle; /* Align with the middle of the text */
+}
+
+.small-rect.name {
+    background-color: #4175a2; 
+    border: solid 2px #4175a2; /* added border for the hover effect */
+}
+
+.name-link {
+    text-decoration: none;  /* Remove underline */
+    color: black;           /* Set a specific color, adjust as needed */
+}
+
+
+
+/*Projects page */
+/*Projects page */
+/*Projects page */
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+    justify-content: left;     /* Horizontally centers the child elements */
+    align-items: left;        /* Vertically centers the child elements */
+}
+
+
+.project-descriptions {
+    padding: 0 20px; /* Add some spacing between the text and the images */
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+    width: 600px;
+}
+
+.project-item {
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+
+.project-item h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h3 .question {
+    font-weight: normal;
+    display: inline; /* to ensure it stays on the same line */
+    font-size: 1em; /* ensuring it has the default size of the surrounding text */
+    color: inherit; /* ensuring it uses the same color as the surrounding text */
+}
+
+.project-item h2 {
+    color: #4175a2;
+    font-size: 24px; /* Adjust as required */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+.project-item h3 {
+    font-size: 12px; /* Adjust as required */
+    margin-bottom: 10px;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+}
+
+.project-item p {
+    margin-bottom: 30px; /* Spacing between project items */
+    font-size: 15px;
+    
+}
+
+
+.project-images {
+    padding: 0 20px; /* Add some spacing between the images and the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers the square images horizontally */
+    margin-top: 80px;
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+
+}
+
+
+
+.image-box img {
+    width: 500px; /* Adjust as required */
+    height: 500px;
+    object-fit: contain; /* This ensures images maintain their aspect ratio */
+}
+
+.project-images .image-box:first-of-type {
+    padding-top: 50px;  /* Adjust this value based on how much you want to move the image down */
+}
+
+.project-images .image-box:nth-of-type(2) {
+    margin-top: -50px;  /* This counteracts the shift caused by the margin on the first image */
+}
+
+.project-images .image-box:nth-of-type(5) {
+    margin-top: -50px;  /* This counteracts the shift caused by the margin on the first image */
+}
+.project-images .image-box:last-of-type {
+    margin-top: -50px;  /* Adjust this value based on how much you want to move the image up */
+}
+
+
+
+
+/*Footer */
+/*Footer */
+/*Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    background-color: #eeeeee;
+    border-top:2px solid #ccc;
+    margin-top: 25px;
+    width: 1100px;
+    box-sizing: border-box;
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+    overflow: auto;
+    
+
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 20px; /*Adjust horizontal margin as needed */
+    
+}
+
+footer label {
+    font-weight: bold;
+    background-color: #eeeeee;
+}
+
+.footer-icon {
+    float: left;
+    margin-right: 10px; /* Space between the icon and the label */
+    width: 20px; /* Adjust this according to the size you want */
+    height: 20px;
+}
+
+
+.linkedin-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-color: #eeeeee;
+}
