@@ -1,3 +1,7 @@
+/* ========================== */
+/* Default styles (Desktop) */
+/* ========================== */
+
 /* Basic Reset */
 /* Basic Reset */
 /* Basic Reset */
@@ -58,9 +62,7 @@ img {
     height: auto;  /* Preserve the image's aspect ratio */
 }
 
-@media (max-width: 768px) {
-    /* Styles for screens smaller than 768px */
-}
+
 
 p {
     max-width: 800px;
@@ -317,4 +319,42 @@ footer label {
     height: 24px;
     margin-left: 10px;
     background-color: #eeeeee;
+}
+
+
+/* ========================== */
+/* Mobile styles */
+/* ========================== */
+
+@media (max-width: 768px) {
+    /* Override styles for screens smaller than 768px */
+    body, h1, h2, h3, p, a, ul, li {
+        font-size: smaller; /* Just an example, you can change font sizes for mobile, etc. */
+    }
+
+    header, footer {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .body-wrap {
+        flex-direction: column;
+    }
+
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headshot-circle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .personal-summary {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    /* ... any other mobile specific styles ... */
 }
