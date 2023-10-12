@@ -355,6 +355,20 @@ footer label {
         width: 50%;
         padding: 20px;
     }
+
+    .personal-summary {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .container {
+        width: 90%;   /* Takes up 90% of the parent element's width */
+        max-width: 650px;  /* Won't exceed 1200px even on very large screens */
+    }
+    
+    p {
+        max-width: 650px;
+    }
     
     /* ... any other mobile specific styles ... */
 }
