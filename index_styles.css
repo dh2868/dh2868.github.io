@@ -63,7 +63,6 @@ img {
 }
 
 
-
 p {
     max-width: 800px;
 }
@@ -195,7 +194,7 @@ header nav a:hover {
     color: black;
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 .headshot-circle, .personal-summary {
@@ -332,20 +331,29 @@ footer label {
     body, h1, h2, h3, p, a, ul, li {
         font-size: smaller; /* Just an example, you can change font sizes for mobile, etc. */
     }
+/* 
+    .header {
+        padding: 10px 20px;
+    } */
 
     header, footer {
         width: 100%; 
+        /* padding: 10px; */
         padding: 10px 20px;
     }
-
 
     .body-wrap {
         flex-direction: column;
     }
 
     .home-content {
+        align-items: flex-start;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center !important; */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 650px;
+        padding-left: 20px;
     }
 
     .headshot-circle {
@@ -354,20 +362,36 @@ footer label {
     }
 
     .personal-summary {
-        width: 80%;
-        /* padding: 20px; */
-        padding: 20px 10px;
+        box-sizing: border-box;
+        padding: 50px;
+        padding-left: 20px; /* Adjust this value to move the text further to the right */
+        /* width: 0px; */
+        color: black;
+        flex-shrink: 0;  /* prevents the container from shrinking */
+        flex-grow: 0;    /* prevents the container from growing */
+        margin-left: 20px;
+        width: calc(100% - 50px);
+        /* padding-left: 50px; */ /* Commented this out as the padding above will overwrite it */
     }
 
-    .personal-summary {
-        width: 50%;
+    /* .personal-summary h1 {
+        width: 80%;
         padding: 20px;
-    }
+        /* padding: 20px 10px;
+        align-items: center;
+    } */
+
+    /* .personal-summary p {
+        width: 80%;
+        padding: 20px;
+        /* padding: 20px 10px; */
+        /* align-items: center; */
+    /* } */ 
 
     .container {
         width: 100%;   /* Takes up 90% of the parent element's width */
-/*         max-width: 650px;  /* Won't exceed 1200px even on very large screens */
-    } */
+        /* max-width: 650px;  Won't exceed 1200px even on very large screens */
+    }
     
     p {
         max-width: 650px;
