@@ -72,7 +72,8 @@ p {
 /* HEADER */
 /* HEADER */
 header, footer {
-    width: 1100px;  /*Adjust this value to your design preference */
+    width: 100%;
+    max-width: 1100px;  /*Adjust this value to your design preference */
     margin: 0;
     overflow: hidden; /* Choose based on your preference */
     justify-content: left;     /* Horizontally centers the child elements */
@@ -334,8 +335,9 @@ footer label {
 
     header, footer {
         width: 100%; 
-        padding: 10px;
+        padding: 10px 20px;
     }
+
 
     .body-wrap {
         flex-direction: column;
@@ -352,8 +354,9 @@ footer label {
     }
 
     .personal-summary {
-        width: 50%;
-        padding: 20px;
+        width: 80%;
+        /* padding: 20px; */
+        padding: 20px 10px;
     }
 
     .personal-summary {
@@ -362,9 +365,9 @@ footer label {
     }
 
     .container {
-        width: 90%;   /* Takes up 90% of the parent element's width */
-        max-width: 650px;  /* Won't exceed 1200px even on very large screens */
-    }
+        width: 100%;   /* Takes up 90% of the parent element's width */
+/*         max-width: 650px;  /* Won't exceed 1200px even on very large screens */
+    } */
     
     p {
         max-width: 650px;
