@@ -357,7 +357,7 @@ footer label {
         /* padding-left: 20px; */
     /* } */ 
 
-   .home-content {
+    .home-content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -365,6 +365,7 @@ footer label {
         margin-right: auto;
         max-width: 650px;
         padding-left: 40px; /* Increase the padding value to prevent text from being cut off */
+        box-sizing: border-box;
       }
 
     .headshot-circle {
