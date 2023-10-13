@@ -361,18 +361,18 @@ footer label {
         height: 180px;
     }
 
-    .personal-summary {
+/*     .personal-summary {
         box-sizing: border-box;
         padding: 50px;
         padding-left: 20px; /* Adjust this value to move the text further to the right */
         /* width: 0px; */
-        color: black;
-        flex-shrink: 0;  /* prevents the container from shrinking */
-        flex-grow: 0;    /* prevents the container from growing */
-        margin-left: 20px;
-        width: calc(100% - 50px);
+/*         color: black; */
+/*         flex-shrink: 0;  /* prevents the container from shrinking */
+/*         flex-grow: 0;    /* prevents the container from growing */ 
+/*         margin-left: 20px;
+        width: calc(100% - 50px); */
         /* padding-left: 50px; */ /* Commented this out as the padding above will overwrite it */
-    }
+/*     } */
 
     /* .personal-summary h1 {
         width: 80%;
@@ -387,6 +387,13 @@ footer label {
         /* padding: 20px 10px; */
         /* align-items: center; */
     /* } */ 
+
+     .personal-summary {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        margin: auto;
+      }
 
     .container {
         width: 100%;   /* Takes up 90% of the parent element's width */
