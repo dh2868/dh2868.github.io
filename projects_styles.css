@@ -339,6 +339,8 @@ footer label {
       text-align: left;
       width: 100%;
       max-width: 650px;
+      padding-left: 20px; /* Increase the padding value to prevent text from being cut off */
+      box-sizing: border-box;
     }
   
     .project-image-mobile {
