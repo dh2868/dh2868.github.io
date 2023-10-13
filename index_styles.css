@@ -396,14 +396,18 @@ footer label {
         margin: auto;
       }
 
+      .personal-summary p {
+        margin-bottom: 1em;
+      }
+
     .container {
         width: 100%;   /* Takes up 90% of the parent element's width */
         /* max-width: 650px;  Won't exceed 1200px even on very large screens */
     }
     
-    p {
+/*     p {
         max-width: 650px;
-    }
+    } */
     
     /* ... any other mobile specific styles ... */
 }
