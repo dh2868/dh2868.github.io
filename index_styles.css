@@ -346,15 +346,22 @@ footer label {
         flex-direction: column;
     }
 
-    .home-content {
+
+    /* .home-content {
         align-items: flex-start;
         flex-direction: column;
         /* align-items: center !important; */
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 650px;
-        padding-left: 20px;
-    }
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        /* max-width: 650px; */
+        /* padding-left: 20px; */
+    /* } */ 
+
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
     .headshot-circle {
         width: 180px;
