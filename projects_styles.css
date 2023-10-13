@@ -38,7 +38,6 @@ body {
     } */
 /* } */
 
-
 h1, h2 {
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
     font-weight: 600;  /* Using semi-bold weight for headers */
@@ -59,9 +58,9 @@ img {
     height: auto;  /* Preserve the image's aspect ratio */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     /* Styles for screens smaller than 768px */
-}
+/* } */ 
 
 p {
     max-width: 800px;
@@ -303,8 +302,6 @@ footer label {
 /* ========================== */
 /* Mobile styles */
 /* ========================== */
-
-
 
 @media (max-width: 768px) {
     /* Override styles for screens smaller than 768px */
