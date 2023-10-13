@@ -364,7 +364,7 @@ footer label {
         margin-left: auto;
         margin-right: auto;
         max-width: 650px;
-        padding-left: 40px; /* Increase the padding value to prevent text from being cut off */
+        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
       }
 
@@ -415,6 +415,10 @@ footer label {
     .container {
         width: 100%;   /* Takes up 90% of the parent element's width */
         /* max-width: 650px;  Won't exceed 1200px even on very large screens */
+    }
+
+        .rect-links {
+        padding-left: 100px;
     }
     
 /*     p {
