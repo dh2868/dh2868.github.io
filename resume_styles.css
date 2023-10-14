@@ -364,7 +364,7 @@ footer label {
       font-size: smaller; /* Just an example, you can change font sizes for mobile, etc. */
     }
 
-    .work-experience-list {
+    /* .work-experience-list {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -373,11 +373,12 @@ footer label {
         width: 600px;
         padding-left: 20px; 
         box-sizing: border-box;
-      }
-      
-      /* .work-experience-list h1 {
-        text-align: center;
       } */
+      
+ 
+    ul, li {
+        font-size: 12px;
+      }
 
     h2, h3 {
         font-size: 15px;
@@ -399,20 +400,34 @@ footer label {
         align-items: center;
       }
     
-      .second-column {
+      /* .second-column {
         width: 600px; /* Takes up 100% of the parent element's width */
-        margin: 0; /* Remove the left and right margins */
+        /* margin: 0; Remove the left and right margins */
+        /* box-sizing: border-box; */
+        /* text-align: left; */
+        /* flex-shrink: 0;  prevents the container from shrinking */
+        /* flex-grow: 0;    prevents the container from growing */
+      /* } */
+
+      .second-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 650px;
+        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
-        text-align: left;
-        flex-shrink: 0;  /* prevents the container from shrinking */
-        flex-grow: 0;    /* prevents the container from growing */
       }
+  
+      .work-experience-list {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: left;
+       margin-bottom: 50px;
+     }
 
-      .second-column h1 {
-        margin-left: -177px;
-      }
-
-    
       
       .third-column {
         width: 600px;
@@ -427,11 +442,11 @@ footer label {
 
       .skills-section {
         width: 600px;
-        padding-left: 20px;
+        padding-left: 100px;
       }
 
       .job {
-        padding-left: 20px; /* Increase the padding value to prevent text from being cut off */
+        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
         flex-shrink: 0;  /* prevents the container from shrinking */
         flex-grow: 0;    /* prevents the container from growing */
       }
