@@ -181,7 +181,7 @@ header nav a:hover {
 .headshot-circle {
     width: 360px;
     height: 360px;
-    background-image: url('IMG-3404_bw.jpg');
+    background-image: url('IMG-3404_bw.JPG');
     background-size: contain; /* This ensures the image covers the entire circle */
     background-position: center; /* This centers the image */
     border-radius: 50%;
