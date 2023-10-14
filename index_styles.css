@@ -1,10 +1,6 @@
 /* ========================== */
 /* Default styles (Desktop) */
 /* ========================== */
-
-/* Basic Reset */
-/* Basic Reset */
-/* Basic Reset */
 body, h1, h2, h3, p, a, ul, li {
     margin: 0;
     padding: 0;
@@ -135,8 +131,8 @@ header nav a:hover {
 }
 
 .small-rect.name {
-    background-color: #4175a2; 
-    border: solid 2px #4175a2; /* added border for the hover effect */
+    background-color: #8e9aaf; 
+    border: solid 2px #8e9aaf; /* added border for the hover effect */
 }
 
 .name-link {
@@ -178,8 +174,8 @@ header nav a:hover {
 .headshot-circle {
     width: 360px;
     height: 360px;
-    background-image: url('1516460131841.jpg');
-    background-size: cover; /* This ensures the image covers the entire circle */
+    background-image: url('IMG-3404_bw.jpg');
+    background-size: contain; /* This ensures the image covers the entire circle */
     background-position: center; /* This centers the image */
     border-radius: 50%;
     margin: 10px;
@@ -194,7 +190,6 @@ header nav a:hover {
     color: black;
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
-    /* padding-left: 50px; */
 }
 
 .headshot-circle, .personal-summary {
@@ -250,8 +245,10 @@ section.rect-links a {
 } 
 
 .rect.blue1 { 
-    background-color: #4175a2; 
-    border: solid 2px #4175a2; /* added border for the hover effect */
+    /* background-color: #4175a2; 
+    border: solid 2px #4175a2; added border for the hover effect */
+    background-color: #8e9aaf; 
+    border: solid 2px #8e9aaf; /* added border for the hover effect */
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
     text-align: center;
 }
@@ -260,8 +257,10 @@ section.rect-links a {
 }
 
 .rect.blue2 { 
-    background-color: #b7c0cb; 
-    border: solid 2px #b7c0cb; /* added border for the hover effect */
+    /* background-color: #b7c0cb; 
+    border: solid 2px #b7c0cb; added border for the hover effect */
+    background-color: #dee2ff; 
+    border: solid 2px #dee2ff; /* added border for the hover effect */
     color: black; /* setting text color to black for visibility against yellow */
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
@@ -331,31 +330,16 @@ footer label {
     body, h1, h2, h3, p, a, ul, li {
         font-size: smaller; /* Just an example, you can change font sizes for mobile, etc. */
     }
-/* 
-    .header {
-        padding: 10px 20px;
-    } */
+
 
     header, footer {
         width: 100%; 
-        /* padding: 10px; */
         padding: 10px 20px;
     }
 
     .body-wrap {
         flex-direction: column;
     }
-
-
-    /* .home-content {
-        align-items: flex-start;
-        flex-direction: column;
-        /* align-items: center !important; */
-        /* margin-left: auto; */
-        /* margin-right: auto; */
-        /* max-width: 650px; */
-        /* padding-left: 20px; */
-    /* } */ 
 
     .home-content {
         display: flex;
@@ -369,36 +353,10 @@ footer label {
       }
 
     .headshot-circle {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
-/*     .personal-summary {
-        box-sizing: border-box;
-        padding: 50px;
-        padding-left: 20px; /* Adjust this value to move the text further to the right */
-        /* width: 0px; */
-/*         color: black; */
-/*         flex-shrink: 0;  /* prevents the container from shrinking */
-/*         flex-grow: 0;    /* prevents the container from growing */ 
-/*         margin-left: 20px;
-        width: calc(100% - 50px); */
-        /* padding-left: 50px; */ /* Commented this out as the padding above will overwrite it */
-/*     } */
-
-    /* .personal-summary h1 {
-        width: 80%;
-        padding: 20px;
-        /* padding: 20px 10px;
-        align-items: center;
-    } */
-
-    /* .personal-summary p {
-        width: 80%;
-        padding: 20px;
-        /* padding: 20px 10px; */
-        /* align-items: center; */
-    /* } */ 
 
     .personal-summary {
         display: flex;        
@@ -406,24 +364,21 @@ footer label {
         align-items: center; 
         width: 500px;
         margin: auto;
+        margin-top: -50px;
       }
-
+      
       .personal-summary p {
         margin-bottom: 1em;
       }
 
+
+
     .container {
         width: 100%;   /* Takes up 90% of the parent element's width */
-        /* max-width: 650px;  Won't exceed 1200px even on very large screens */
     }
-
-        .rect-links {
+    
+    .rect-links {
         padding-left: 100px;
     }
     
-/*     p {
-        max-width: 650px;
-    } */
-    
-    /* ... any other mobile specific styles ... */
 }

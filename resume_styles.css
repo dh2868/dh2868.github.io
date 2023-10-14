@@ -1,6 +1,6 @@
-/* Basic Reset */
-/* Basic Reset */
-/* Basic Reset */
+/* ========================== */
+/* Default styles (Desktop) */
+/* ========================== */
 body, h1, h2, h3, p, a, ul, li {
     margin: 0;
     padding: 0;
@@ -70,7 +70,8 @@ p {
 /* HEADER */
 /* HEADER */
 header, footer {
-    width: 1100px;  /*Adjust this value to your design preference */
+    width: 100%;
+    max-width: 1100px;  /*Adjust this value to your design preference */
     margin: 0;
     overflow: hidden; /* Choose based on your preference */
     justify-content: left;     /* Horizontally centers the child elements */
@@ -133,8 +134,8 @@ header nav a:hover {
 }
 
 .small-rect.name {
-    background-color: #4175a2; 
-    border: solid 2px #4175a2; /* added border for the hover effect */
+    background-color: #8e9aaf; 
+    border: solid 2px #8e9aaf; /* added border for the hover effect */
 }
 
 .name-link {
@@ -149,68 +150,68 @@ header nav a:hover {
 /*Resume page */
 /*Resume page */
 /*Resume page */
-/* Main layout with 3 columns */
 .resume-content {
-    flex: 1;
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    justify-content: left;     /* Horizontally centers the child elements */
-    align-items: left;        /* Vertically centers the child elements */
+    justify-content: center;     /* Horizontally centers the child elements */
+    align-items: center;        /* Vertically centers the child elements */
 }
-.first-column{
-    margin-left: 50px;
-}
-/* First column styles */
-.first-column h1 {
+
+.work-experience-list h1 {
     font-size: 50px;
     font-weight: bold;
     max-width: 10px;
-    gap: 10px;
-    margin-left: 20px;
+    /* gap: 10px;
     flex-shrink: 0;  /* prevents the container from shrinking */
-    flex-grow: 0;    /* prevents the container from growing */
+    /* flex-grow: 0;    prevents the container from growing */ 
 }
+
+
 .work-experience-circle,
-.education-circle {
+.education-circle, .skills-circle {
     color: black;
-    width: 175px;
-    height: 70px;
+    width: 100%;
+    height: 35px;
     border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold; /* added to make the text bold as per your description */
     text-align: center;
-    margin-left: 20px;
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    margin-bottom: 20px;
 }
 
 .work-experience-circle {
-    background-color: #4175a2;
-    margin-top: 45px;
+    background-color: #8e9aaf;
     font-size: 20px;
 }
 
 
 .education-circle {
-    background-color: #b7c0cb;
-    margin-top: 985px;
+    background-color: #dee2ff;
     font-size: 20px;
 }
 
+.skills-circle {
+    background-color: #8e9aaf;
+    font-size: 20px;
+}
 /* Second column styles */
 .second-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 100px;
     margin-right: 5px;
-    font-size: 12px;
+    margin-left: 20px;
+    font-size: 15px;
     width: 600px;
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     overflow: auto; /*adds scroll if content overflows the container width */
+    box-sizing: border-box;
+
 }
 
 
@@ -252,16 +253,17 @@ hr {
 
 /* Third column styles */
 .third-column {
-    font-size: 12px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 100px;
-    width: 200px;
-    margin-right: 60px;
-    overflow-wrap: break-word;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    width: 300px;
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
+    box-sizing: border-box;
+    margin-top: -1445px;
 
 }
 
@@ -292,12 +294,6 @@ ul {
     background-color: #000;
     margin: 20px 0;
 }
-
-
-
-
-
-
 
 
 
@@ -350,4 +346,99 @@ footer label {
     height: 24px;
     margin-left: 10px;
     background-color: #eeeeee;
+}
+
+
+/* ========================== */
+/* Mobile styles */
+/* ========================== */
+
+@media (max-width: 768px) {
+    /* Override styles for screens smaller than 768px */
+    body,
+    h1,
+    h2,
+    h3,
+    p,
+    a {
+      font-size: smaller; /* Just an example, you can change font sizes for mobile, etc. */
+    }
+
+    .work-experience-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        padding-left: 20px; 
+        box-sizing: border-box;
+      }
+      
+      /* .work-experience-list h1 {
+        text-align: center;
+      } */
+
+    h2, h3 {
+        font-size: 15px;
+    }
+  
+    header,
+    footer {
+      width: 100%;
+      padding: 10px 20px;
+    }
+  
+    .body-wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .resume-content {
+        flex-direction: column; /* Change the flex direction to column */
+        align-items: center;
+      }
+    
+      .second-column {
+        width: 600px; /* Takes up 100% of the parent element's width */
+        margin: 0; /* Remove the left and right margins */
+        box-sizing: border-box;
+        text-align: left;
+        flex-shrink: 0;  /* prevents the container from shrinking */
+        flex-grow: 0;    /* prevents the container from growing */
+      }
+
+      .second-column h1 {
+        margin-left: -177px;
+      }
+
+    
+      
+      .third-column {
+        width: 600px;
+        margin: 0;
+        order: 3;
+        box-sizing: border-box;
+        text-align: left;
+        padding-left: 20px; /* Increase the padding value to prevent text from being cut off */
+        flex-shrink: 0;  /* prevents the container from shrinking */
+        flex-grow: 0;    /* prevents the container from growing */
+      }
+
+      .skills-section {
+        width: 600px;
+        padding-left: 20px;
+      }
+
+      .job {
+        padding-left: 20px; /* Increase the padding value to prevent text from being cut off */
+        flex-shrink: 0;  /* prevents the container from shrinking */
+        flex-grow: 0;    /* prevents the container from growing */
+      }
+
+      .projects-container {
+        width: 600px; /* Takes up 90% of the parent element's width */
+      }
+
+
 }

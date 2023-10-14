@@ -134,8 +134,8 @@ header nav a:hover {
 }
 
 .small-rect.name {
-    background-color: #4175a2; 
-    border: solid 2px #4175a2; /* added border for the hover effect */
+    background-color: #8e9aaf; 
+    border: solid 2px #8e9aaf; /* added border for the hover effect */
 }
 
 .name-link {
@@ -324,17 +324,17 @@ footer label {
       flex-direction: column;
     }
 
+    
     .project-descriptions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 650px;
-    padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
-    box-sizing: border-box;
-    }
-  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 650px;
+        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
+        box-sizing: border-box;
+      }
   
     .project-item {
       display: flex;
@@ -374,5 +374,4 @@ footer label {
         width: 100%; /* Takes up 90% of the parent element's width */
       }
     
-      /* ... any other mobile specific styles ... */
     }
