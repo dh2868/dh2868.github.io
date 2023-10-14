@@ -97,6 +97,13 @@ header {
     flex-grow: 0;    /* prevents the container from growing */
 }
 
+.header-right {
+    margin-left: 50px;
+    width: 200px;
+    flex-shrink: 0;  /* prevents the container from shrinking */
+    flex-grow: 0;    /* prevents the container from growing */
+}
+
 header nav a {
     font-size: 15px;
     font-weight: normal;
@@ -334,7 +341,7 @@ footer label {
 
     header, footer {
         width: 100%; 
-        padding: 10px 20px;
+        padding: 20px 20px;
     }
 
     .body-wrap {
