@@ -434,7 +434,7 @@ footer label {
         align-items: left;
         margin-left: auto;
         margin-right: auto;
-        width: 400px;
+/*         width: 400px; */
         box-sizing: border-box;
     }
 
@@ -474,7 +474,7 @@ footer label {
     }
 
     .third-column {
-        width: 400px;
+/*         width: 400px; */
         margin: 0;
         order: 3;
         box-sizing: border-box;
@@ -484,7 +484,7 @@ footer label {
         
     }
       .skills-section {
-        width: 400px;
+/*         width: 400px; */
     }
 
       .job {
