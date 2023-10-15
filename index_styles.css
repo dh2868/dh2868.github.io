@@ -171,7 +171,7 @@ header nav a:hover {
 
 .home-content {
     width: 1100px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     display: flex;
     justify-content: left;     /* Horizontally centers the child elements */
     align-items: flex-start;        /* Vertically centers the child elements */
@@ -375,6 +375,10 @@ footer label {
 
     /* .body-wrap {
         flex-direction: column;
+    } */
+
+    /* .stacked-content {
+        max-width: 450px;
     } */
 
     .home-content {
