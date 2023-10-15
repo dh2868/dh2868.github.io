@@ -17,6 +17,7 @@ body, html {
 body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
 .body-wrap {
     display: flex;        /* enable flexbox */
     flex-direction: column;  /* stack child elements vertically */
@@ -77,6 +78,8 @@ header, footer {
 
 
 header {
+    width: 100%;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
@@ -88,18 +91,13 @@ header {
     flex-grow: 0;    /* prevents the container from growing */
 }
 
+
+
 .header-left {
     display: flex;
     align-items: center;   /* Vertically centers the items */
     gap: 10px;             /* Space between items */
     font-style: bold;
-    flex-shrink: 0;  /* prevents the container from shrinking */
-    flex-grow: 0;    /* prevents the container from growing */
-}
-
-.header-right {
-    margin-left: 50px;
-    width: 200px;
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
 }
@@ -157,7 +155,12 @@ header nav a:hover {
     padding: 0;
     box-sizing: border-box;
 }
+
+.body {
+    width: 1100px;
+}
 .stacked-content {
+    width: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribute space evenly between items */
@@ -167,6 +170,7 @@ header nav a:hover {
 
 
 .home-content {
+    width: 1100px;
     margin-top: -100px;
     display: flex;
     justify-content: left;     /* Horizontally centers the child elements */
@@ -175,6 +179,7 @@ header nav a:hover {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     font-size: 0;
+    /* width: 1010px; */
 }
 
 
@@ -341,8 +346,32 @@ footer label {
 
     header, footer {
         width: 100%; 
-        padding: 20px 20px;
+        padding: 10px 20px;
     }
+
+    footer {
+        display: flex;
+        /* align-items: center; */
+        /* align-content: center; */
+        justify-content: space-between;
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    footer > div:nth-child(1) {
+        order: 1; /* Phone div */
+    }
+    footer > div:nth-child(2) {
+        order: 3; /* Email div */
+    }
+    footer > div:nth-child(3) {
+        order: 2; /* Follow me div */
+    }
+    footer > div:nth-child(4) {
+        order: 4; /* Copyright div */
+    }
+
+
 
     .body-wrap {
         flex-direction: column;
@@ -354,7 +383,7 @@ footer label {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        max-width: 650px;
+        max-width: 400px;
         padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
       }
@@ -369,7 +398,7 @@ footer label {
         display: flex;        
         flex-direction: column;
         align-items: center; 
-        width: 500px;
+        width: 400px;
         margin: auto;
       }
       
@@ -385,6 +414,7 @@ footer label {
     
     .rect-links {
         padding-left: 100px;
+        width: 400px;
     }
     
 }

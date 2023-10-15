@@ -80,6 +80,8 @@ header, footer {
 
 
 header {
+    width: 100%;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
@@ -90,6 +92,7 @@ header {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
 }
+
 
 .header-left {
     display: flex;
@@ -150,21 +153,26 @@ header nav a:hover {
 /*Resume page */
 /*Resume page */
 /*Resume page */
+
+.body {
+    width: 1100px;
+}
+
 .resume-content {
+    width: 1100px;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     justify-content: center;     /* Horizontally centers the child elements */
     align-items: center;        /* Vertically centers the child elements */
+
 }
+
 
 .work-experience-list h1 {
     font-size: 50px;
     font-weight: bold;
     max-width: 10px;
-    /* gap: 10px;
-    flex-shrink: 0;  /* prevents the container from shrinking */
-    /* flex-grow: 0;    prevents the container from growing */ 
 }
 
 
@@ -263,7 +271,7 @@ hr {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     box-sizing: border-box;
-    margin-top: -1380px;
+    margin-top: -1370px;
 
 }
 
@@ -363,25 +371,20 @@ footer label {
     a {
       font-size: smaller; /* Just an example, you can change font sizes for mobile, etc. */
     }
-
-    /* .work-experience-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        padding-left: 20px; 
-        box-sizing: border-box;
-      } */
       
  
     ul, li {
         font-size: 12px;
-      }
+    }
 
     h2, h3 {
         font-size: 15px;
+    }
+
+    h1 {
+        padding: 0;
+        margin: 0;
+        margin-left: -390px;
     }
   
     header,
@@ -389,6 +392,27 @@ footer label {
       width: 100%;
       padding: 10px 20px;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    footer > div:nth-child(1) {
+        order: 1; /* Phone div */
+    }
+    footer > div:nth-child(2) {
+        order: 3; /* Email div */
+    }
+    footer > div:nth-child(3) {
+        order: 2; /* Follow me div */
+    }
+    footer > div:nth-child(4) {
+        order: 4; /* Copyright div */
+    }
+
   
     .body-wrap {
       flex-direction: column;
@@ -397,63 +421,78 @@ footer label {
 
     .resume-content {
         flex-direction: column; /* Change the flex direction to column */
-        align-items: center;
-      }
-    
-      /* .second-column {
-        width: 600px; /* Takes up 100% of the parent element's width */
-        /* margin: 0; Remove the left and right margins */
-        /* box-sizing: border-box; */
-        /* text-align: left; */
-        /* flex-shrink: 0;  prevents the container from shrinking */
-        /* flex-grow: 0;    prevents the container from growing */
-      /* } */
+        align-items: left;
+        padding: 0;
+        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
+
+    }
+
 
       .second-column {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         margin-left: auto;
         margin-right: auto;
-        max-width: 650px;
-        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
+        width: 400px;
         box-sizing: border-box;
-      }
-  
+    }
+
+      .second-column h1 {
+        text-align: left;
+    }
+
+      .education-circle {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+
+
       .work-experience-list {
        display: flex;
        flex-direction: column;
        align-items: center;
        text-align: left;
-       margin-bottom: 50px;
-     }
+       margin-bottom: 10px;
+    }
 
-      
-      .third-column {
-        width: 600px;
+     .work-experience-list h1 {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: left;
+        text-align: left;
+    }
+
+    
+    
+       .education-list { 
+        display: 1;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .third-column {
+        width: 400px;
         margin: 0;
         order: 3;
         box-sizing: border-box;
         text-align: left;
-        padding-left: 20px; /* Increase the padding value to prevent text from being cut off */
         flex-shrink: 0;  /* prevents the container from shrinking */
         flex-grow: 0;    /* prevents the container from growing */
-      }
-
+        
+    }
       .skills-section {
-        width: 600px;
-        padding-left: 100px;
-      }
+        width: 400px;
+    }
 
       .job {
-        padding-left: 100px; /* Increase the padding value to prevent text from being cut off */
         flex-shrink: 0;  /* prevents the container from shrinking */
         flex-grow: 0;    /* prevents the container from growing */
-      }
+    }
 
-      .projects-container {
-        width: 600px; /* Takes up 90% of the parent element's width */
-      }
+
 
 
 }
