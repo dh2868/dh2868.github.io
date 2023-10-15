@@ -345,13 +345,14 @@ footer label {
 
 
     header, footer {
-      width: 100%;
-/*         width: 500px; */
+      /* width: 100%; */
+        width: 500px;
         padding: 10px 20px;
     }
 
     footer {
         display: flex;
+        align-self: center;
         justify-content: space-between;
         width: 400px;
         margin-left: 50px;
@@ -372,9 +373,9 @@ footer label {
 
 
 
-    .body-wrap {
+    /* .body-wrap {
         flex-direction: column;
-    }
+    } */
 
     .home-content {
         display: flex;
@@ -382,14 +383,14 @@ footer label {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        max-width: 600px;
+        max-width: 450px;
         /* padding-left: 100px; Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
       }
 
     .headshot-circle {
-        width: 300px;
-        height: 300px;
+        width: 180px;
+        height: 180px;
     }
 
 
@@ -397,7 +398,7 @@ footer label {
         display: flex;        
         flex-direction: column;
         align-items: center; 
-        width: 600px;
+        width: 450px;
         margin: auto;
       }
       
@@ -413,7 +414,7 @@ footer label {
     
     .rect-links {
         /* padding-left: 100px; */
-        width: 600px;
+        width: 450px;
     }
     
 }

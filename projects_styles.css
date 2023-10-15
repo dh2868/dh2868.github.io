@@ -352,6 +352,7 @@ footer label {
         justify-content: center;     /* Horizontally centers the child elements */
         align-items: center;        /* Vertically centers the child elements */
     }
+    
     .project-descriptions {
         display: flex;
         flex-direction: column;
