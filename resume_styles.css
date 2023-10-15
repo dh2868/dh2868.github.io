@@ -271,7 +271,7 @@ hr {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     box-sizing: border-box;
-    margin-top: -1370px;
+    margin-top: -1380px;
 
 }
 
