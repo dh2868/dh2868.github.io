@@ -345,14 +345,13 @@ footer label {
 
 
     header, footer {
-        width: 100%; 
+      /* width: 100%; */
+      width: 500px;
         padding: 10px 20px;
     }
 
     footer {
         display: flex;
-        /* align-items: center; */
-        /* align-content: center; */
         justify-content: space-between;
         width: 400px;
         margin-left: 50px;
