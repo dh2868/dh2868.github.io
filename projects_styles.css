@@ -317,15 +317,16 @@ footer label {
   
     header,
     footer {
-      /* width: 100%; */
-      width: 500px;
+      width: 90%;
+      /* width: 500px; */
       padding: 10px 20px;
     }
 
     footer {
         display: flex;
         justify-content: space-between;
-        width: 400px;
+        /* width: 400px; */
+        width: 90%;
         margin-left: 50px;
     }
 
@@ -347,7 +348,8 @@ footer label {
     } */
 
     .projects-container {
-        width: 450px;
+        width: 90%;
+        /* width: 450px; */
         max-width: 450px;
         display: flex;
         justify-content: space-between;
@@ -364,7 +366,8 @@ footer label {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        width: 450px;
+        /* width: 450px; */
+        width: 90%;
         max-width: 450px;
         padding-left: 70px; /* Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
@@ -383,15 +386,17 @@ footer label {
       flex-direction: column;
       align-items: center;
       text-align: left;
-      width: 100%;
-      width: 450px;
-      max-width: 450px;
+      /* width: 100%; */
+      width: 90%;
+      /* width: 450px; */
+      /* max-width: 450px; */
       padding-left: 75px; /* Increase the padding value to prevent text from being cut off */
       box-sizing: border-box;
     } 
   
     .project-image-mobile {
-        width: 100%;
+        width: 90%;
+        /* width: 100%; */
         height: auto;
         margin-bottom: 20px;
       }
