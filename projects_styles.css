@@ -165,7 +165,7 @@ header nav a:hover {
     padding: 0 20px; /* Add some spacing between the text and the images*/
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
-    width: 700px;
+    width: 600px;
 }
 
 .project-item {
