@@ -404,6 +404,7 @@ footer label {
         align-items: center; 
         width: 450px;
         margin: auto;
+        padding: 30px;
       }
       
       .personal-summary p {
