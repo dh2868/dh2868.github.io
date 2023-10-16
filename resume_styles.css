@@ -177,7 +177,7 @@ header nav a:hover {
 
 
 .work-experience-circle,
-.education-circle, .skills-circle {
+.education-circle, .skills-circle, .speaking-circle {
     color: black;
     width: 100%;
     height: 35px;
@@ -206,6 +206,13 @@ header nav a:hover {
     background-color: #8e9aaf;
     font-size: 20px;
 }
+
+.speaking-circle {
+    background-color: #dee2ff;
+    font-size: 20px;
+}
+
+
 /* Second column styles */
 .second-column {
     display: flex;
@@ -271,11 +278,21 @@ hr {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     box-sizing: border-box;
-    margin-top: -1380px;
+    margin-top: -1084px;
 
 }
 
+.speaking {
+    margin-top: 20px;
+}
+
 .skills-section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.speaking-section h2 {
     font-weight: bold;
     margin-bottom: 10px;
 
@@ -301,6 +318,21 @@ ul {
     height: 1px;
     background-color: #000;
     margin: 20px 0;
+}
+
+.speaking h3 {
+    color: #4175a2;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    
+}
+
+.speaking p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    overflow-wrap: break-word;
 }
 
 
@@ -390,7 +422,7 @@ footer label {
     header,
     footer {
       /* width: 100%; */
-      width: 500px;
+      width: 450px;
       padding: 10px 20px;
     }
 
@@ -503,7 +535,12 @@ footer label {
     }
 
 
-      .skills-section {
+    .skills-section {
+        width: 450px;
+        max-width: 450px;
+    }
+
+    .speaking-section {
         width: 450px;
         max-width: 450px;
     }
