@@ -147,7 +147,7 @@ header nav a:hover {
 /*Projects page */
 /*Projects page */
 .projects-container {
-    width: 600px;
+    width: 1100px;
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
@@ -165,13 +165,14 @@ header nav a:hover {
     padding: 0 20px; /* Add some spacing between the text and the images*/
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
-    width: 600px;
+    width: 800px;
+    max-width: 900px;
 }
 
 .project-item {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
-    margin-left: 50px;
+    /* margin-left: 50px; */
     justify-content: space-between;
 }
 
@@ -184,7 +185,7 @@ header nav a:hover {
 h3 .question {
     font-weight: normal;
     display: inline; /* to ensure it stays on the same line */
-    font-size: 1em; /* ensuring it has the default size of the surrounding text */
+    font-size: 15px; /* ensuring it has the default size of the surrounding text */
     color: inherit; /* ensuring it uses the same color as the surrounding text */
 }
 
@@ -197,7 +198,7 @@ h3 .question {
 
 
 .project-item h3 {
-    font-size: 12px; /* Adjust as required */
+    font-size: 15px; /* Adjust as required */
     margin-bottom: 10px;
     font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
@@ -346,6 +347,7 @@ footer label {
     } */
 
     .projects-container {
+        width: 450px;
         max-width: 450px;
         display: flex;
         justify-content: space-between;
@@ -362,8 +364,9 @@ footer label {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        width: 450px;
         max-width: 450px;
-        padding-left: 75px; /* Increase the padding value to prevent text from being cut off */
+        padding-left: 70px; /* Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
       }
   
@@ -381,6 +384,7 @@ footer label {
       align-items: center;
       text-align: left;
       width: 100%;
+      width: 450px;
       max-width: 450px;
       padding-left: 75px; /* Increase the padding value to prevent text from being cut off */
       box-sizing: border-box;

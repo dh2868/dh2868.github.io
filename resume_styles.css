@@ -154,7 +154,7 @@ header nav a:hover {
 /*Resume page */
 /*Resume page */
 
-.body {
+.body-wrap {
     width: 1100px;
 }
 
@@ -477,7 +477,7 @@ footer label {
         margin-left: auto;
         margin-right: auto;
         max-width: 450px;
-        width: 450px;
+        /* width: 450px; */
         padding-left: 20px; /* Increase the padding value to prevent text from being cut off */
         box-sizing: border-box;
         margin: 0;
