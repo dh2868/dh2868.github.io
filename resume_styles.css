@@ -459,6 +459,12 @@ footer label {
         /* padding-left: 100px; Increase the padding value to prevent text from being cut off */
     /* } */
 
+
+
+    .body-wrap {
+        max-width: 450px;
+    }
+
     .resume-content {
         display: flex;
         flex-direction: column;
