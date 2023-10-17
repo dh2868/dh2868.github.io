@@ -349,10 +349,8 @@ footer label {
 
     footer {
         display: flex;
-        align-self: center;
         justify-content: space-between;
         width: 350px;
-        margin-left: 25px;
         font-size: smaller;
     }
 
