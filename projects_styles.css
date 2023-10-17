@@ -328,6 +328,7 @@ footer label {
         width: 350px;
         /* width: 90%; */
         margin-left: 50px;
+        font-size: smaller;
     }
 
     footer > div:nth-child(1) {
@@ -343,12 +344,8 @@ footer label {
         order: 4; /* Copyright div */
     }
   
-    /* .body-wrap {
-      flex-direction: column;
-    } */
 
     .projects-container {
-        /* width: 90%; */
         width: 350px;
         max-width: 350px;
         display: flex;
@@ -367,9 +364,9 @@ footer label {
         margin-left: auto;
         margin-right: auto;
         width: 350px;
-        /* width: 90%; */
         max-width: 350px;
-        padding-left: 70px; /* Increase the padding value to prevent text from being cut off */
+        /* padding-left: 70px; Increase the padding value to prevent text from being cut off */
+        margin-left: 20px;
         box-sizing: border-box;
       }
   
@@ -386,8 +383,6 @@ footer label {
       flex-direction: column;
       align-items: center;
       text-align: left;
-      /* width: 100%; */
-      /* width: 90%; */
       width: 350px;
       max-width: 350px;
       padding-left: 75px; /* Increase the padding value to prevent text from being cut off */
@@ -395,8 +390,7 @@ footer label {
     } 
   
     .project-image-mobile {
-        width: 90%;
-        /* width: 100%; */
+        width: 100%;
         height: auto;
         margin-bottom: 20px;
       }
@@ -410,17 +404,5 @@ footer label {
         margin-bottom: 20px;
       }
 
-      /* .projects-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: left;
-        margin-bottom: 50px;
-      } */
-    
-      /* .container {
-        width: 100%; /* Takes up 90% of the parent element's width */
-      /* } */
     
     }

@@ -416,13 +416,11 @@ footer label {
     h1 {
         padding: 0;
         margin: 0;
-        margin-left: -440px;
+        margin-left: -330px;
     }
   
     header,
     footer {
-      /* width: 100%; */
-      /* width: 90%; */
       width: 350px;
       padding: 10px 20px;
     }
@@ -431,8 +429,9 @@ footer label {
         display: flex;
         justify-content: space-between;
         width: 350px;
+        font-size: smaller;
         /* width: 90%; */
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     footer > div:nth-child(1) {
