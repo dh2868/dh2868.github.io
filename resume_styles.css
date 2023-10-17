@@ -164,7 +164,7 @@ header nav a:hover {
     gap: 30px;
     justify-content: space-between;
     justify-content: center;     /* Horizontally centers the child elements */
-    align-items: center;        /* Vertically centers the child elements */
+    /* align-items: center;        Vertically centers the child elements */
 
 }
 
@@ -278,8 +278,7 @@ hr {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     box-sizing: border-box;
-    margin-top: -1084px;
-
+    margin-top: 60px;
 }
 
 .speaking {
