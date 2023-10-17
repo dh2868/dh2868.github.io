@@ -419,8 +419,6 @@ footer label {
 
       }
 
-
-
     .container {
         width: 100%;   /* Takes up 90% of the parent element's width */
     }
@@ -428,6 +426,10 @@ footer label {
     .rect-links {
         /* padding-left: 100px; */
         width: 350px;
+    }
+
+    .rect.blue1, .rect.blue2 {
+        font-size: 15px;
     }
     
 }
