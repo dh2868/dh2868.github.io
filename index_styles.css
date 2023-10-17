@@ -149,6 +149,14 @@ header nav a:hover {
 /* ========================== */
 /* Index Page */
 /* ========================== */
+.home-content {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.home-content.fade-in {
+    opacity: 1 !important;
+}
 
 * {
     margin: 0;

@@ -142,6 +142,16 @@ header nav a:hover {
 /* ========================== */
 /* Projects Page */
 /* ========================== */
+
+.projects-container {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.projects-container.fade-in {
+    opacity: 1 !important;
+}
+
 .projects-container {
     width: 1100px;
     display: flex;
