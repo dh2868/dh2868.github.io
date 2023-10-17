@@ -64,9 +64,9 @@ p {
     max-width: 800px;
 }
 
-/* HEADER */
-/* HEADER */
-/* HEADER */
+/* ========================== */
+/* Header styles */
+/* ========================== */
 header, footer {
     width: 100%;
     max-width: 1100px;  /*Adjust this value to your design preference */
@@ -146,9 +146,9 @@ header nav a:hover {
 }
 
 
-/* Main Page */
-/* Main Page */
-/* Main Page */
+/* ========================== */
+/* Index Page */
+/* ========================== */
 
 * {
     margin: 0;
@@ -171,7 +171,6 @@ header nav a:hover {
 
 .home-content {
     width: 1100px;
-    /* margin-top: -100px; */
     display: flex;
     justify-content: left;     /* Horizontally centers the child elements */
     align-items: flex-start;        /* Vertically centers the child elements */
@@ -179,7 +178,6 @@ header nav a:hover {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
     font-size: 0;
-    /* width: 1010px; */
 }
 
 
@@ -283,9 +281,9 @@ section.rect-links a {
 
 
 
-/*Footer */
-/*Footer */
-/*Footer */
+/* ========================== */
+/* Footer styles */
+/* ========================== */
 footer {
     display: flex;
     justify-content: space-between;
@@ -345,7 +343,6 @@ footer label {
 
 
     header, footer {
-      /* width: 100%; */
         width: 350px;
         padding: 10px 20px;
     }
@@ -374,14 +371,6 @@ footer label {
 
 
 
-    /* .body-wrap {
-        flex-direction: column;
-    } */
-
-    /* .stacked-content {
-        max-width: 450px;
-    } */
-
     .home-content {
         display: flex; 
         flex-direction: column;
@@ -395,7 +384,7 @@ footer label {
         flex-shrink: 0;  /* prevents the container from shrinking  */
         flex-grow: 0;    /* prevents the container from growing */
         justify-content: center;    /* Horizontally centers the child elements */
-}
+    }
 
 
     .headshot-circle {
@@ -414,19 +403,17 @@ footer label {
         padding: 0px;
       }
       
-      .personal-summary p {
+    .personal-summary p {
         margin-bottom: 1em;
 
       }
 
     .container {
-        width: 100%;   /* Takes up 90% of the parent element's width */
+        width: 100%;   
     }
     
     .rect-links {
-        /* padding-left: 100px; */
         width: 350px;
-        /* font-size: 10px; */
     }
 
     .rect.blue1, .rect.blue2 {

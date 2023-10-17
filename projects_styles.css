@@ -53,17 +53,13 @@ img {
     height: auto;  /* Preserve the image's aspect ratio */
 }
 
-/* @media (max-width: 768px) {
-    /* Styles for screens smaller than 768px */
-/* } */ 
-
 p {
     max-width: 800px;
 }
 
-/* HEADER */
-/* HEADER */
-/* HEADER */
+/* ========================== */
+/* Header styles */
+/* ========================== */
 header, footer {
     width: 100%;
     max-width: 1100px;  /*Adjust this value to your design preference */
@@ -143,9 +139,9 @@ header nav a:hover {
 
 
 
-/*Projects page */
-/*Projects page */
-/*Projects page */
+/* ========================== */
+/* Projects Page */
+/* ========================== */
 .projects-container {
     width: 1100px;
     display: flex;
@@ -172,7 +168,6 @@ header nav a:hover {
 .project-item {
     flex-shrink: 0;  /* prevents the container from shrinking */
     flex-grow: 0;    /* prevents the container from growing */
-    /* margin-left: 50px; */
     justify-content: space-between;
 }
 
@@ -215,45 +210,10 @@ h3 .question {
  
 }
 
-/* .project-images {
-    padding: 0 20px; /* Add some spacing between the images and the text */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; This centers the square images horizontally */
-    /* margin-top: 80px; */
-    /* flex-shrink: 0;  prevents the container from shrinking */
-    /* flex-grow: 0;    prevents the container from growing */
-/* } */
 
-
-
-/* .image-box img {
-    width: 500px; /* Adjust as required */
-    /* height: 500px; */
-    /* object-fit: contain; This ensures images maintain their aspect ratio */
-/* } */
-
-/* .project-images .image-box:first-of-type {
-    padding-top: 50px;  /* Adjust this value based on how much you want to move the image down */
-/* }  */
-
-/* .project-images .image-box:nth-of-type(2) {
-    margin-top: -50px;  /* This counteracts the shift caused by the margin on the first image */
-/* }  */
-
-/* .project-images .image-box:nth-of-type(5) {
-    margin-top: -50px;  /* This counteracts the shift caused by the margin on the first image */
-/* } */
-/* .project-images .image-box:last-of-type {
-    margin-top: -50px;  /* Adjust this value based on how much you want to move the image up */
-/* }  */
-
-
-
-
-/*Footer */
-/*Footer */
-/*Footer */
+/* ========================== */
+/* Footer styles */
+/* ========================== */
 footer {
     display: flex;
     justify-content: space-between;
@@ -317,7 +277,6 @@ footer label {
   
     header,
     footer {
-      /* width: 90%; */
       width: 350px;
       padding: 10px 20px;
     }
@@ -326,8 +285,6 @@ footer label {
         display: flex;
         justify-content: space-between;
         width: 350px;
-        /* width: 90%; */
-        /* margin-left: 50px; */
         font-size: smaller;
     }
 
@@ -364,11 +321,8 @@ footer label {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* margin-left: auto;
-        margin-right: auto; */
         width: 350px;
         max-width: 350px;
-        /* padding-left: 70px; Increase the padding value to prevent text from being cut off */
         margin-left: 20px;
         box-sizing: border-box;
       }
@@ -388,7 +342,6 @@ footer label {
       text-align: left;
       width: 350px;
       max-width: 350px;
-      /* padding-left: 75px; Increase the padding value to prevent text from being cut off */
       box-sizing: border-box;
     } 
   
@@ -398,14 +351,13 @@ footer label {
         margin-bottom: 20px;
       }
     
-      .project-content h3 {
+    .project-content h3 {
         margin-bottom: 10px;
         margin-top: 0; /* Reset the top margin */
       }
     
-      .project-content p {
+    .project-content p {
         margin-bottom: 20px;
       }
-
     
     }
